@@ -121,6 +121,16 @@ a {
     color: var(--bright-blue);
 }
 
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 2rem auto;
+    /* width: 80%; */
+    /* margin-bottom: 2rem; */
+}
+
 .proceed button {
     background: var(--bright-blue);
     border-style: none;
@@ -128,13 +138,21 @@ a {
     font-weight: var(--bold);
     padding: 0.8rem 6rem;
     border-radius: 0.75rem;
+    width: 100%;
 }
 
 a.cancel {
     background: --white;
     border-style: none;
-    color: var(--pale-blue);
+    color: var(--desaturated-blue);
     text-decoration: none;
     padding: 0 0.75rem 0.75rem 0.75rem;
     font-weight: var(--very-bold);
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        max-width: 80%;
+    }
 }
