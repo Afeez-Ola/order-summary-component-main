@@ -155,4 +155,19 @@ a.cancel {
     .card {
         max-width: 80%;
     }
+    .buttons {
+        width: 90%;
+    }
+    .proceed button {
+        padding: 0.5rem;
+    }
+    .plan_menu {
+        width: 90%;
+    }
+}
+
+@media (min-width: 700px) and (max-width:1024px) {
+    .card {
+        max-width: 40%;
+    }
 }
