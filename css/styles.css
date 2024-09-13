@@ -158,9 +158,6 @@ a.cancel {
 @media screen and (max-width: 600px) {
     body {
         background-image: url('/images/pattern-background-mobile.svg');
-        background-repeat: no-repeat;
-        /* background-size: cover; */
-        background-size: contain;
         background-position: 0rem 4rem;
     }
     .card {
