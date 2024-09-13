@@ -121,6 +121,12 @@ img {
     color: var(--bright-blue);
 }
 
+.plan_menu a:hover {
+    color: hsla(245, 75%, 52%, 0.642);
+    text-decoration: none;
+    font-weight: var(--bold);
+}
+
 .buttons {
     display: flex;
     flex-direction: column;
@@ -139,6 +145,11 @@ img {
     width: 100%;
 }
 
+.proceed button:hover {
+    background: hsla(245, 75%, 52%, 0.686);
+    color: var(--white);
+}
+
 a.cancel {
     background: --white;
     border-style: none;
@@ -147,6 +158,10 @@ a.cancel {
     padding: 0 0.75rem 0.75rem 0.75rem;
     font-weight: var(--very-bold);
     width: 100%;
+}
+
+a.cancel:hover {
+    color: var(--dark-blue);
 }
 
 @media screen and (max-width: 600px) {
