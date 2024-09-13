@@ -3,6 +3,7 @@
     --desaturated-blue: hsl(224, 23%, 55%);
     --dark-blue: hsl(223, 47%, 23%);
     --pale-blue: hsl(225, 100%, 94%);
+    --white: hsl(225, 100%, 100%);
     --bright-blue: hsl(245, 75%, 52%);
     --font-size: 1rem;
     --normal: 500;
@@ -20,7 +21,7 @@
 
 body {
     background: black;
-    color: var(--very-pale-blue);
+    color: var(--desaturated-blue);
     -webkit-font-smoothing: antialiased;
     max-width: 100%;
 }
@@ -36,6 +37,10 @@ button {
     cursor: pointer;
 }
 
+img {
+    width: 100%;
+}
+
 .container {
     max-width: 100%;
     display: flex;
@@ -43,4 +48,19 @@ button {
     align-items: center;
     height: 100vh;
     margin: auto;
+}
+
+.card {
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 30%;
+    border-radius: 1.2rem;
+}
+
+.card img {
+    border-radius: 1.2rem 1.2rem 0 0;
 }
