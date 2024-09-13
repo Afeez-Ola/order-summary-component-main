@@ -22,6 +22,7 @@ body {
     background: black;
     color: var(--very-pale-blue);
     -webkit-font-smoothing: antialiased;
+    max-width: 100%;
 }
 
 body,
@@ -33,4 +34,13 @@ button {
 
 button {
     cursor: pointer;
+}
+
+.container {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
 }
