@@ -41,6 +41,10 @@ img {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     max-width: 100%;
     display: flex;
@@ -82,4 +86,14 @@ img {
 
 .order_note p {
     width: 70%;
+}
+
+.plan_menu {
+    background: var(--pale-blue);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.6rem 2rem;
+    border-radius: 0.75rem;
 }
