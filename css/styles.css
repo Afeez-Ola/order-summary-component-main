@@ -120,3 +120,12 @@ a {
 .plan_and_pricing a {
     color: var(--bright-blue);
 }
+
+.proceed button {
+    background: var(--bright-blue);
+    border-style: none;
+    color: var(--white);
+    font-weight: var(--bold);
+    padding: 0.8rem 6rem;
+    border-radius: 0.75rem;
+}
