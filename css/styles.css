@@ -130,10 +130,11 @@ a {
     border-radius: 0.75rem;
 }
 
-.cancel button {
+a.cancel {
     background: --white;
     border-style: none;
     color: var(--pale-blue);
     text-decoration: none;
     padding: 0 0.75rem 0.75rem 0.75rem;
+    font-weight: var(--very-bold);
 }
